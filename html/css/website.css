@@ -9,6 +9,7 @@
 html{
     background: #fbf9f9;
     font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 img{
@@ -67,7 +68,7 @@ img{
     justify-content: center;
     height: 100vh;
     flex-direction: column;
-    background: url(../images/bg.jpg);
+    background: url(../images/img-2.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -170,12 +171,31 @@ img{
     padding: 10px;
     font-size: 14px;
     border-radius: 25px;
-    background: white;
-    color: black;
+    background: lightyellow;
+    color: bold black;
 }
 
 .category .category-box .box-content a:hover {
-    color: white;
-    background-color: black;
+    color: red;
 }
 
+.store-photo {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.store-photo h2 {
+    font-size: 24px;
+}
+
+.store-photo .photo-box {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.store-photo img {
+    max-width: 100%;
+    height: auto;
+
+}
